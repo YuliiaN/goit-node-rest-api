@@ -4,8 +4,8 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm install
+RUN npm i
 
 EXPOSE 3000
 
-CMD ['node', 'server']
+CMD ["node", "server.js"]
